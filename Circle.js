@@ -1,4 +1,7 @@
+// import using require
 const Shape =require("./shape")
+
+// declare class
 class Circle extends Shape{
   super(radius){
     this.radius= radius;
@@ -8,4 +11,6 @@ class Circle extends Shape{
     console.log('Area');
      }
   }
+    
+// export class using module.exports
   module.exports = Circle;
